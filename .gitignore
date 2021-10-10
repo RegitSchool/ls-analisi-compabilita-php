@@ -6,3 +6,8 @@ css
 php-ini.php
 php-ini*.php
 php-iniit.php
+
+/.idea/
+/.vscode/
+/vendor
+/tools/**/vendor
