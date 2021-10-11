@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<ruleset name="LampSchool-56">
+    <description>Lamp-school on PHP5.6</description>
+
+    <rule ref="PHPCompatibility"/>
+    <config name="testVersion" value="5.6"/>
+
+    <file>index.php</file>
+    <file>php-ini.php</file>
+    <file>abc</file>
+    <file>alunni</file>
+    <file>assemblee</file>
+    <file>assenze</file>
+    <file>bots</file>
+    <file>buffer</file>
+    <file>cattedre</file>
+    <file>certcomp</file>
+    <file>circolari</file>
+    <file>classi</file>
+    <file>collegamenti</file>
+    <file>colloqui</file>
+    <file>comuni</file>
+    <file>consorientativo</file>
+    <file>contr</file>
+    <file>css</file>
+    <file>docenti</file>
+    <file>documenti</file>
+    <file>esame3m</file>
+    <file>evacuazione</file>
+    <file>ferie</file>
+    <file>immagini</file>
+    <file>importa</file>
+    <file>install</file>
+    <file>lampschooldata</file>
+    <file>lezioni</file>
+    <file>lezionigruppo</file>
+    <file>lib</file>
+    <file>login</file>
+    <file>lsapp</file>
+    <file>materie</file>
+    <file>moodle</file>
+    <file>nbproject</file>
+    <file>note</file>
+    <file>obiettivi</file>
+    <file>password</file>
+    <file>pei</file>
+    <file>programmazione</file>
+    <file>progrcert</file>
+    <file>regclasse</file>
+    <file>rp</file>
+    <file>scrutini</file>
+    <file>segreteria</file>
+    <file>sms</file>
+    <file>valutazionecomportamento</file>
+    <file>valutazioni</file>
+
+
+
+    <exclude-pattern>*/*\.(css|js)$</exclude-pattern>
+    <exclude-pattern>ecs.php</exclude-pattern>
+    <exclude-pattern>rector.php</exclude-pattern>
+    <exclude-pattern>rector.check-php-5.6.php</exclude-pattern>
+    <exclude-pattern>rector.check-php-7.0.php</exclude-pattern>
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+    <exclude-pattern>*/tools/*/vendor</exclude-pattern>
+
+    <arg name="basepath" value="."/>
+    <arg name="colors"/>
+    <arg name="parallel" value="75"/>
+    <arg value="np"/>
+
+    <rule ref="PHPCompatibility">
+        <type>error</type>
+    </rule>
+
+</ruleset>
