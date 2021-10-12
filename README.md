@@ -31,7 +31,7 @@ LO SCOPO PRIMARIO DI QUESTO REPOSITORY È L'ANALISI DELLA CODEBASE DI LAMP-SCHOO
 ```bash
 git clone https://github.com/RegitSchool/ls-analisi-compabilita-php.git
 
-ls ls-analisi-compabilita-php/
+cd ls-analisi-compabilita-php/
 
 composer install
 
