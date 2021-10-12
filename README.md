@@ -29,23 +29,23 @@ LO SCOPO PRIMARIO DI QUESTO REPOSITORY È L'ANALISI DELLA CODEBASE DI LAMP-SCHOO
 
 
 ```bash
-$ git clone https://github.com/RegitSchool/ls-analisi-compabilita-php.git
+git clone https://github.com/RegitSchool/ls-analisi-compabilita-php.git
 
-$ ls ls-analisi-compabilita-php/
+ls ls-analisi-compabilita-php/
 
-$ composer install
+composer install
 
-$ composer bin all install
+composer bin all install
 ```
 
 Verifica compatibilità php5.6
 
 ```bash
-$ ./vendor/bin/phpcs --standard=phpcs.compatibility-56.xml -v
+./vendor/bin/phpcs --standard=phpcs.compatibility-56.xml -v
 ```
 
 Verifica compatibilità php da 7.0 a 7.4
 
 ```bash
-$ ./vendor/bin/phpcs --standard=phpcs.compatibility-70-74.xml -v
+./vendor/bin/phpcs --standard=phpcs.compatibility-70-74.xml -v
 ```
