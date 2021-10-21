@@ -1,4 +1,31 @@
 {
+    "name": "scafonchio/lampschool",
+    "type": "project",
+    "description": "Registro Elettronico per il sistema scolastico italiano.",
+    "keywords": [
+        "Registro Elettronico",
+        "Ministero Istruzione",
+        "MIUR",
+        "Italian Linux Society"
+    ],
+    "license": "AGPL-3.0-only",
+    "authors": [
+        {
+            "name": "Pietro Tamburrano",
+            "role": "Author"
+        },
+        {
+            "name": "Italian Linux Society",
+            "email": "direttore@linux.it",
+            "homepage": "https://www.ils.org/",
+            "role": "Maintainer"
+        },
+        {
+            "name": "Contributors",
+            "homepage": "https://github.com/scaforchio/LAMPSchool/graphs/contributors",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "php": ">=5.6"
     },
